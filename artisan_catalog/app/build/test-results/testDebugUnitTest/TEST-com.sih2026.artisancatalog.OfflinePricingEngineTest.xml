@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sih2026.artisancatalog.OfflinePricingEngineTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-09T09:36:54" hostname="Vedikas-MacBook-Air.local" time="0.001">
+  <properties/>
+  <testcase name="calculateSuggestedPrice_withBenchmarkValues_returnsExactExpectedPrice" classname="com.sih2026.artisancatalog.OfflinePricingEngineTest" time="0.001"/>
+  <testcase name="calculateSuggestedPrice_withCustomMarginPercent_computesPercentage" classname="com.sih2026.artisancatalog.OfflinePricingEngineTest" time="0.0"/>
+  <testcase name="calculateSuggestedPrice_withCustomHours_recalculatesAccurately" classname="com.sih2026.artisancatalog.OfflinePricingEngineTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

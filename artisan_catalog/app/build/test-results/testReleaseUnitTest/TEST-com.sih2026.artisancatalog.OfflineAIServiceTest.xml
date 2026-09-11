@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sih2026.artisancatalog.OfflineAIServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-09T09:36:54" hostname="Vedikas-MacBook-Air.local" time="0.02">
+  <properties/>
+  <testcase name="generateProductDetails_hindiInput_generatesHindiCatalog" classname="com.sih2026.artisancatalog.OfflineAIServiceTest" time="0.019"/>
+  <testcase name="generateProductDetails_cottonBagInput_generatesAccurateEmbroideredBagCatalog" classname="com.sih2026.artisancatalog.OfflineAIServiceTest" time="0.001"/>
+  <testcase name="generateProductDetails_potteryInput_detectsPotteryCategory" classname="com.sih2026.artisancatalog.OfflineAIServiceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

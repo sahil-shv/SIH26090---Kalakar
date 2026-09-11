@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Allow cleartext HTTP specifically for local development and Wi-Fi networks -->
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- Local development host IP -->
+        <domain includeSubdomains="true">10.10.159.148</domain>
+        <!-- Android Emulator host loopback -->
+        <domain includeSubdomains="true">10.0.2.2</domain>
+        <!-- Standard localhost -->
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
+    </domain-config>
+    <!-- Base config permits local Wi-Fi network traffic without SSL errors in development -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
